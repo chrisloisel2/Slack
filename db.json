@@ -1,0 +1,107 @@
+{
+  "users": [
+    { "id": "1", "name": "Alice" },
+    { "id": "2", "name": "Bob" },
+    { "id": "3", "name": "Charlie" },
+    { "id": "4", "name": "David" },
+    { "id": "5", "name": "Eve" },
+    { "id": "6", "name": "Fred" },
+    { "id": "7", "name": "Ginny" },
+    { "id": "8", "name": "Harry" },
+    { "id": "9", "name": "Igor" },
+    { "id": "10", "name": "John" },
+    { "id": "11", "name": "Karen" },
+    { "id": "12", "name": "Laura" },
+    { "id": "13", "name": "Michael" },
+    { "id": "14", "name": "Nancy" },
+    { "id": "15", "name": "Oscar" },
+    { "id": "16", "name": "Peggy" },
+    { "id": "17", "name": "Quentin" },
+    { "id": "18", "name": "Romeo" },
+    { "id": "19", "name": "Sarah" },
+    { "id": "20", "name": "Trent" },
+    { "id": "21", "name": "Ursula" },
+    { "id": "22", "name": "Victor" },
+    { "id": "23", "name": "Wendy" },
+    { "id": "24", "name": "Xavier" },
+    { "id": "25", "name": "Yvonne" },
+    { "id": "26", "name": "Zelda" }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "content": "Bonjour, comment ça va?",
+      "authorId": "1",
+      "date": "2023-11-25T09:00:00.000Z",
+      "threadId": "1"
+    },
+    {
+      "id": "2",
+      "content": "Salut! Tout va bien, merci.",
+      "authorId": "2",
+      "date": "2023-11-25T09:05:00.000Z",
+      "threadId": "1"
+    },
+    {
+      "id": "3",
+      "content": "Super!",
+      "authorId": "1",
+      "date": "2023-11-25T09:10:00.000Z",
+      "threadId": "1"
+    },
+    {
+      "id": "4",
+      "content": "Et toi?",
+      "authorId": "1",
+      "date": "2023-11-25T09:15:00.000Z",
+      "threadId": "1"
+    },
+    {
+      "id": "5",
+      "content": "Oui, ça va.",
+      "authorId": "2",
+      "date": "2023-11-25T09:20:00.000Z",
+      "threadId": "1"
+    },
+    {
+      "id": "6",
+      "content": "J'ai un projet à vous proposer.",
+      "authorId": "1",
+      "date": "2023-11-25T09:25:00.000Z",
+      "threadId": "2"
+    },
+    {
+      "id": "7",
+      "content": "Je suis partant!",
+      "authorId": "2",
+      "date": "2023-11-25T09:30:00.000Z",
+      "threadId": "2"
+    },
+    {
+      "id": "8",
+      "content": "Moi aussi!",
+      "authorId": "1",
+      "date": "2023-11-25T09:35:00.000Z",
+      "threadId": "2"
+    },
+    {
+      "id": "9",
+      "content": "On se retrouve quand?",
+      "authorId": "2",
+      "date": "2023-11-25T09:40:00.000Z",
+      "threadId": "2"
+    },
+    {
+      "id": "10",
+      "content": "Jeudi prochain?",
+      "authorId": "1",
+      "date": "2023-11-25T09:45:00.000Z",
+      "threadId": "2"
+    }
+  ],
+  "threads": [
+    { "id": "1", "label": "Discussion Générale" },
+    { "id": "2", "label": "Projets" },
+    { "id": "3", "label": "Autre" }
+  ]
+}
