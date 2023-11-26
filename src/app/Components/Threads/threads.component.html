@@ -1,7 +1,13 @@
 <p>Liste des Threads</p>
 <div class="side" *ngFor="let thread of threads">
-  <button (click)="selectThread(thread)">{{ thread.label }}</button>
+    <button (click)="selectThread(thread)">{{ thread.label }}</button>
 </div>
 <div class="messageList" *ngFor="let message of messages">
-  <app-messages [message]="message"></app-messages>
+    <app-messages [message]="message"></app-messages>
+</div>
+<div class="messageForm">
+    <form>
+        <input type="text" name="message" [(ngModel)]="this.message" />
+        <button (click)="this.sendMessage()">Envoyer</button>
+    </form>
 </div>
